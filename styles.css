@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Reset básico e fontes */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #030303;
+}
+
+header {
+    background: #0c8bd4;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.highlights, .artesan, .roteiro, .galeria, .evento {
+    margin-bottom: 20px;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #0c8bd4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
